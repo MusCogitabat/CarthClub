@@ -3,7 +3,7 @@
 /obj/effect/addwall
 	name = "Debug"
 	desc = "First rule of debug placeholder: Do not talk about debug placeholder."
-	icon = 'code/modules/wod13/addwalls.dmi'
+	icon = 'code/modules/Carth13/icons/addwalls.dmi'
 	base_icon_state = "wall"
 	plane = GAME_PLANE
 	layer = ABOVE_ALL_MOB_LAYERS_LAYER
@@ -35,7 +35,7 @@
 /turf/closed/wall/vampwall
 	name = "old brick wall"
 	desc = "A huge chunk of old bricks used to separate rooms."
-	icon = 'code/modules/wod13/walls.dmi'
+	icon = 'code/modules/Carth13/icons/walls.dmi'
 	icon_state = "wall-0"
 	base_icon_state = "wall"
 	opacity = TRUE
@@ -111,7 +111,7 @@
 		qdel(addwall)
 
 /turf/closed/wall/vampwall/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE //Let the windows block the air transfer
@@ -127,7 +127,7 @@
 	base_icon_state = "rich"
 
 /turf/closed/wall/vampwall/rich/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -147,7 +147,7 @@
 	base_icon_state = "junk"
 
 /turf/closed/wall/vampwall/junk/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -161,7 +161,7 @@
 	base_icon_state = "junkalt"
 
 /turf/closed/wall/vampwall/junk/alt/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -177,7 +177,7 @@
 	base_icon_state = "market"
 
 /turf/closed/wall/vampwall/market/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -197,7 +197,7 @@
 	base_icon_state = "old"
 
 /turf/closed/wall/vampwall/old/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -217,7 +217,7 @@
 	base_icon_state = "painted"
 
 /turf/closed/wall/vampwall/painted/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -237,7 +237,7 @@
 	base_icon_state = "theater"
 
 /turf/closed/wall/vampwall/rich/old/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -257,7 +257,7 @@
 	base_icon_state = "brick"
 
 /turf/closed/wall/vampwall/brick/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -279,7 +279,7 @@
 	base_icon_state = "city"
 
 /turf/closed/wall/vampwall/city/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -320,7 +320,7 @@
 	base_icon_state = "bar"
 
 /turf/closed/wall/vampwall/bar/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
@@ -336,7 +336,7 @@
 	base_icon_state = "wood"
 
 /turf/closed/wall/vampwall/wood/low
-	icon = 'code/modules/wod13/lowwalls.dmi'
+	icon = 'code/modules/Carth13/icons/lowwalls.dmi'
 	opacity = FALSE
 	low = TRUE
 	blocks_air = FALSE
