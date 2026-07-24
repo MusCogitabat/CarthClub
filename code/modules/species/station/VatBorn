@@ -1,0 +1,20 @@
+/decl/species/vatborn
+uid = "species_Vatborn
+name = "Vatborn"
+name_plural = "Vatborns"
+base_external_prosthetics_model = decl/bodytype/prosthetic/basic_human
+
+var/description = "Created from Zhao-Pharm Womb Ships and used in a variety of tasks where brute force is needed before specialized skills."
+
+var/roleplay_summary = "You have no memories besides your skills, and your machine mother. The other vat-born around you are friends and to be trusted. You hold the light of creation within you. The creation of Gods and ritual awaits within you."
+
+var/list/available_accessory_categories = list(
+	SAC_HAIR,
+	SAC_FACIAL_HAIR,
+	SAC_COSMETICS,
+	SAC_MARKINGS
+)
+
+
+var/hunger_factor = 1.1
+var/thirst_factor = 1.1
